@@ -5,7 +5,8 @@
 }
 
 .container {
-    max-width: 567px;
+    max-width: 912px;
+    padding: 0 15px;
     margin: 0 auto;
 
 }
@@ -35,7 +36,8 @@
     font-size: 15px;
     color: #B1BBCB;
     line-height: 28px;
-    margin-right: 50px;
+    margin-right: 23px;
+    text-decoration: none;
 }
 
 .nav-link:last-child {
@@ -57,6 +59,10 @@
     color: #fff;
     line-height: normal;
     font-weight: 400;
+}
+
+.txt-main {
+    padding-bottom: 23px;
 }
 
 .txt-footer {
