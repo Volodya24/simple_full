@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 567px;
+    margin: 0 auto;
+
+}
+ 
+.page-wrap {
+    min-height: 100vh;
+    background-image: url("../assest/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    padding-top: 101px;
+    flex-grow: 1;
+}
+
+/* header nav */
+.header {
+    padding-top: 32px;
+}
+
+.nav-link{
+    font-weight: 700;
+    font-size: 15px;
+    color: #B1BBCB;
+    line-height: 28px;
+    margin-right: 50px;
+}
+
+.nav-link:last-child {
+    margin-right: 0px;
+}
+
+/*txt style*/
+.h1{
+    font-size: 25px;
+    color: #fff;
+}
+
+.main-h1 {
+    padding-bottom: 8px;
+}
+
+.txt {
+    font-size: 14px;
+    color: #fff;
+    line-height: normal;
+    font-weight: 400;
+}
+
+.txt-footer {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.27);
+    font-weight: 400;
+}
+
+.footer {
+    padding-bottom: 75px;
+}
