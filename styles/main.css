@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-.body {
+body {
     font-family: "Roboto", sans-serif;
 }
 
@@ -46,6 +46,7 @@
 
 /*txt style*/
 .h1{
+    max-width: 567PX;
     font-size: 25px;
     color: #fff;
 }
@@ -55,6 +56,7 @@
 }
 
 .txt {
+    max-width: 567PX;
     font-size: 14px;
     color: #fff;
     line-height: normal;
